@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: self hosted
+    runs-on: self-hosted
     steps:
       - run: echo 'tetete'
       - run: echo $HOSTNAME
